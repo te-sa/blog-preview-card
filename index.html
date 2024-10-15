@@ -49,13 +49,13 @@
             justify-content: center;
 
             line-height: 1.5; /* better accessibility */
-            font-size: 16px;
+            font-size: calc(0.5em + 0.75vmin);
             font-family: Figtree, sans-serif;
         }
 
         .container {
             background: hsl(0, 0%, 100%);
-            width: 23rem;
+            width: clamp(200px, 80%, 360px);
             padding: 1rem;
             border-radius: 1rem;
             box-shadow: 0.625rem 0.625rem;
@@ -73,18 +73,19 @@
             padding: 0.25rem 0.5rem;
             margin: 0.5rem 0;
             border-radius: 0.25rem;
+            font-size: calc(0.5em + 0.5vmin);
         }
 
         header {
             p {
                 color: hsl(0, 0%, 7%);
                 font-weight: 500;
-                font-size: 14px;
+                font-size: calc(0.6em + 0.5vmin);
             }
 
             h1 {
                 padding: 0.5rem 0 0.75rem 0;
-                font-size: 24px;
+                font-size: clamp(16px, calc(0.75em + 1vmin), 24px);
             }
 
             h1:hover {
@@ -107,6 +108,10 @@
             img {
                 height: 2rem;
                 width: 2rem;
+            }
+
+            p {
+                font-size: calc(0.75em + 0.5vmin);;
             }
         }
 
@@ -131,7 +136,7 @@
 </head>
 <body>
 <div class="container">
-    <svg class="banner" xmlns="http://www.w3.org/2000/svg" width="336" height="201" fill="none" viewBox="0 0 336 201">
+    <svg class="banner" xmlns="http://www.w3.org/2000/svg" width="336" fill="none" viewBox="0 0 336 201">
         <g clip-path="url(#a)">
             <path fill="#F4D04E" d="M0 .5h336v200H0z"/>
             <rect width="139" height="95" x="87.996" y="77.729" fill="#fff" rx="47.5"
