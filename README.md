@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/te-sa/blog-preview-card/blob/main/index.html)
+- Live Site URL: [Live site URL here](https://te-sa.github.io/blog-preview-card/)
 
 ## My process
 
@@ -43,12 +43,6 @@ Users should be able to:
 ### What I learned
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts
-you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.
-**
 
 ### Useful resources
 
