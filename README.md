@@ -12,7 +12,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
 
@@ -40,16 +39,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS
 
-### What I learned
-
 ### Continued development
+
+Might consider adding my CSS into a separate style sheet.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will
-  use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd
-  recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could
-come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [StackOverflow](https://stackoverflow.com/questions/11700985/margin-top-not-working-for-span-element) - I wasn't sure why margin-top was not working for my span element. This post made me realize that inline elements like span don't have vertical margins. I was able to add the desired margin after adding `display: inline-block;` to the span.
+- [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) - A solid example CSS reset with thorough explanations for every line.
