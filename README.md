@@ -12,6 +12,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
 
@@ -38,6 +39,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS
+
+### What I learned
+
+I learned how to use clamp() to make my layout more responsive.
 
 ### Continued development
 
