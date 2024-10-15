@@ -14,11 +14,12 @@
 
     <title>Frontend Mentor | Blog preview card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+        /* CSS reset */
         * {
             box-sizing: border-box;
             margin: 0;
+            padding: 0;
         }
 
         /* better image defaults */
@@ -26,6 +27,8 @@
             display: block;
             max-width: 100%; /* so image does not overflow parent container */
         }
+
+        /* styling */
 
         .dark-text {
             color: hsl(0, 0%, 7%);
@@ -52,16 +55,16 @@
 
         .container {
             background: hsl(0, 0%, 100%);
-            width: 375px;
+            width: 23rem;
             padding: 1rem;
             border-radius: 1rem;
-            box-shadow: 10px 10px;
-            border: 1px solid;
+            box-shadow: 0.625rem 0.625rem;
+            border: 0.06rem solid;
         }
 
         .banner {
             border-radius: 1rem;
-            margin: auto;
+            margin: auto; /* center banner */
         }
 
         .tag {
@@ -79,28 +82,25 @@
             }
 
             h1 {
-                padding: 0.5rem 0;
+                padding: 0.5rem 0 0.75rem 0;
+                font-size: 24px;
             }
         }
 
         .content {
             width: 100%;
-            padding: 0.5rem;
-
-            h1 {
-                font-size: 24px;
-            }
+            padding: 1rem 0.5rem 0.25rem 0.5rem;
         }
 
         .author {
             margin-top: 1.5rem;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 0.75rem;
 
             img {
-                height: 40px;
-                width: 40px;
+                height: 2rem;
+                width: 2rem;
             }
         }
 
